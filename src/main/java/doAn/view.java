@@ -17,5 +17,11 @@ public class view {
         
         ql.nhapdanhsachsv();
         ql.xuatdanhsachsv(ql.dssv);
+        
+        ql.menuSX();
+        
+        ql.xoaSvTheoId();
+      
+      
     }
 }
