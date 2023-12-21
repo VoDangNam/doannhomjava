@@ -1,6 +1,9 @@
 
 package doAn;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class sinhVien {
@@ -69,4 +72,13 @@ public class sinhVien {
     {
         System.out.println("Name student : "+name+"\n"+"Id : "+id+"\n"+"Age student : "+age+"\n"+"Gpa : "+gpa);
     }
+    
+    public void ghiFile(sinhVien sv) {
+		try (BufferedWriter writer = new BufferedWriter(new FileWriter("sinhVienFile.txt", true))) {
+            writer.write(sv.getId() + "," + sv.getName() + "," + sv.getAge() + "," + sv.getAddress() + "," + sv.getGpa());
+            writer.newLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }		
+	}
 }

@@ -11,17 +11,16 @@ import java.util.ArrayList;
  * @author ADMIN
  */
 public class view {
-    public static void main(String[] args) {
-        ArrayList <sinhVien> dssv = new ArrayList<>();
-        QuanlySinhVien ql = new QuanlySinhVien();
-        
-        ql.nhapdanhsachsv();
-        ql.xuatdanhsachsv(ql.dssv);
-        
-        ql.menuSX();
-        
-        ql.xoaSvTheoId();
-      
-      
-    }
+	public static void main(String[] args) {
+		ArrayList<sinhVien> dssv = new ArrayList<>();
+		QuanlySinhVien ql = new QuanlySinhVien();
+//		dsSinhVien dsSV = new dsSinhVien();
+//		ql.docFile();
+		ql.nhapdanhsachsv();
+		ql.xuatdanhsachsv(ql.dssv);
+        ql.menuSX();    
+//		ql.xoaSvTheoId();
+//		ql.sapXepTheoTen();
+
+	}
 }
