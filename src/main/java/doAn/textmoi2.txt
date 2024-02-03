@@ -1,0 +1,1 @@
+sinhVien{id=1, name=1, address=1, age=1, gpa=1.0}
