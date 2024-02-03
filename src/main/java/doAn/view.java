@@ -4,18 +4,10 @@
  */
 package doAn;
 
-import java.util.ArrayList;
-
-/**
- *
- * @author ADMIN
- */
 public class view {
-    public static void main(String[] args) {
-        ArrayList <sinhVien> dssv = new ArrayList<>();
-        QuanlySinhVien ql = new QuanlySinhVien();
-        
-        ql.nhapdanhsachsv();
-        ql.xuatdanhsachsv(ql.dssv);
-    }
+	public static void main(String[] args) {
+
+		QuanlySinhVien ql = new QuanlySinhVien();
+		ql.Menu();
+	}
 }

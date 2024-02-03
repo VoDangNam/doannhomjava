@@ -1,0 +1,2 @@
+sinhVien{id=11, name=1, address=1, age=1, gpa=1.0}
+sinhVien{id=3, name=Ly, address=3, age=33, gpa=3.0}
