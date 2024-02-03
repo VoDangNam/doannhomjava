@@ -6,7 +6,7 @@ package doAn;
 
 public class view {
 	public static void main(String[] args) {
-
+                //Hieu qua trai di
 		QuanlySinhVien ql = new QuanlySinhVien();
 		ql.Menu();
 	}
